@@ -1,0 +1,154 @@
+*{
+    padding: 5px;   
+}
+
+.contenedor{   
+    width: 423px;
+    position: relative;
+    left: 35%;
+}
+
+.tmen{
+    padding: 20px;
+    background: white;
+    color: rgb(122, 118, 118);
+}
+table, tr, a{
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+.menu1{
+    padding: 69px;
+    text-align: center;
+    background: rgb(6, 199, 233);
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+
+.menu1:hover{
+    transform: translateX(-20px)scale(1);
+    border: 2px ridge white;
+    background: rgb(121, 118, 118);
+    color: white;
+}
+
+.menu2{
+    padding: 67px;
+    text-align: center;
+    background: rgb(6, 199, 233);
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.menu2:hover{
+    transform: translateX(20px)scale(1);
+    border: 2px ridge white;
+    background: rgb(121, 118, 118);
+    color: white;
+}
+.postre1{
+    padding: 20px;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.postre1:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: #F7CA3E ;
+    border: 2px ridge black;
+    color: white;
+
+}
+.postre2{
+    padding: 20px;
+    text-align: center;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.postre2:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: #F7CA3E ;
+    border: 2px ridge black;
+    color: white;
+}
+.face{
+    padding: 13px;
+    text-align: center;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.face:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: rgb(11, 20, 148);
+    border: 2px ridge black;
+    color: white;
+}
+.twi{
+    padding: 13px;
+    text-align: center;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.twi:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: rgb(72, 194, 241);
+    border: 2px ridge rgb(0, 0, 0);
+    color: white;
+}
+.recla{
+    padding: 13px;
+    text-align: center;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.recla:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: rgb(177, 2, 2);
+    color: white;
+    border: 2px ridge black;
+}
+.regis{
+    padding: 13px;
+    text-align: center;
+    background: white;
+    color: rgb(87, 84, 84);
+    font-family: 'Zen Dots', cursive;
+}
+.regis:hover{
+    transform: translateZ(20px)scale(1.1);
+    background: rgb(4, 184, 109);
+    color: white;
+    border: 2px ridge black;
+}
+.what{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+}
+.imaw{
+    padding: 0;
+    width: 407px;
+    height: 170px;
+}
+.imaw:hover{
+    transform: translateY(-10px)scale(1.1);
+}
+video{
+    position: fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+}
+
+
